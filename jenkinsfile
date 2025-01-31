@@ -8,7 +8,7 @@ pipeline{
     stages {
         stage('git-checkout') {
             steps {
-         git credentialsId: 'github', url: 'https://github.com/kuber416/maven-web-application.git'
+         git credentialsId: 'github', url: 'https://github.com/kuber416/hello-world-maven-builder.git'
             } 
          }
      }
